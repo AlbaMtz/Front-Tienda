@@ -1,0 +1,12 @@
+
+{{colchon}}
+<h2>{{colchon.name | uppercase}} Details</h2>
+<div><span>id: </span>{{colchon.id}}</div>
+<div><span>name: </span>{{colchon.name}}</div>
+
+<!-- * * * * * * * *Enlace bidireccional para editar un colchon * * * * * * * * * * * * * -->
+<div>
+    <label>name:
+      <input [(ngModel)]="colchon.name" placeholder="name">
+    </label>
+  </div>
